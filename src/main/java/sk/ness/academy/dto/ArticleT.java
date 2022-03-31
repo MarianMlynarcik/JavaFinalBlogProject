@@ -1,10 +1,8 @@
 package sk.ness.academy.dto;
 
-import sk.ness.academy.domain.Article;
-
 import java.util.Date;
 
-public class Article2 {
+public class ArticleT {
 
     private Integer id;
     private String title;
@@ -12,7 +10,7 @@ public class Article2 {
     private String author;
     private Date createDate;
 
-    public Article2(Integer id, String title, String text, String author, Date createDate) {
+    public ArticleT(Integer id, String title, String text, String author, Date createDate) {
         this.id = id;
         this.title = title;
         this.text = text;
